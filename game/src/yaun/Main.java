@@ -1,39 +1,20 @@
 package yaun;
 
-public class Main {
+import yaun.game.client.clientInstance;
+import yaun.game.server.serverInstance;
 
-	public void run(){
-		try {
-			init();
-		} finally {
-			loop();
-		}
-	}
-	
-	private void init(){
-		// prepare for server init on separate thread yaun.game.server.Main
-		
-		
-		//init client on separate thread yaun.game.client.Main
-		
-		
-		//init crash handler yaun.game.util.crashHandler.CrashDaemon
-		
-		
-	}
-	
-	private void loop(){
-		
-	}
+public class Main {
 	
 	public static void main(String[] args) {
+		if (args.length >= 1){
+			if (args[0].equals("server")){
+				System.out.println("Starting Server!");
+				serverInstance server = new serverInstance();
+			}
+		}
 		
-		
-		
-		
-		
-		
-		
+		System.out.println("Starting Client!");
+		clientInstance client = new clientInstance();
 		
 	}
 
