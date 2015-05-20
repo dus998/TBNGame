@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="kryonet">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/game/lib/kryonet/java/build" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/game/lib/kryonet/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/game/lib/kryonet/java/src" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/game/lib/kryonet/java/build" recursive="false" />
+  </library>
+</component>

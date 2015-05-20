@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="luaj">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/game/lib/luaj/lib/luaj-jme-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/game/lib/luaj/lib/luaj-jse-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/game/lib/luaj/docs/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/game/lib/luaj/src/jme" />
+      <root url="file://$PROJECT_DIR$/game/lib/luaj/src/jse" />
+    </SOURCES>
+  </library>
+</component>
